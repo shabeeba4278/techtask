@@ -1,0 +1,57 @@
+<x-app-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+            {{ __('Tasks') }}
+        </h2>
+    </x-slot>
+
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+                <div class="p-6 bg-white border-b border-gray-200">
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card w-75">
+                             <div class="card-body">
+                                <h5 class="card-title">Title-1</h5>
+                                <p class="card-text">Description</p>
+                                <h3 class="card-title">User Name</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+                <div class="p-6 bg-white border-b border-gray-200">        
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card w-50">
+                            <div class="card-body">
+                                <h5 class="card-title">Title-2</h5>
+                                <p class="card-text">Description</p>
+                                <h3 class="card-title">User Name</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+                <div class="p-6 bg-white border-b border-gray-200">        
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card w-50">
+                            <div class="card-body">
+                                <h5 class="card-title">Title-3</h5>
+                                <p class="card-text">Description</p>
+                                <h3 class="card-title">User Name</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="{{url('/login')}}">Login</a>
+        
+    </div>
+</x-app-layout>
